@@ -1,11 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Bus Ticketing System</title>
-</head>
-<body>
-    
-</body>
+
+    <!-- Tailwind css cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- daisyUI setup -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <section class="max-w-6xl mx-auto px-6 py-6">
+      <div class="flex items-center justify-between mb-8">
+        <h1 class="text-3xl font-extrabold text-black">P-Ticket</h1>
+
+        <ul
+          class="flex bg-[#9cdfa3] px-10 py-2 rounded hidden md:flex items-center gap-12 text-gray-500 font-medium"
+        >
+          <li><a class="hover:text-black transition" href="#">Home</a></li>
+          <li><a class="hover:text-black transition" href="#">About</a></li>
+          <li>
+            <a class="hover:text-black transition" href="#">Destination</a>
+          </li>
+          <li><a class="hover:text-black transition" href="#">Buses</a></li>
+        </ul>
+        <div>
+          <button class="btn bg-[#9cdfa3]">
+            Bus
+            <span class="text-black"
+              ><img class="" src="images/bus-icon.png" alt=""
+            /></span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
