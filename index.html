@@ -73,9 +73,9 @@
       <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
         <!-- Card -->
         <div
-          class="bg-white rounded-3xl border-b-4 border-lime-400 p-8 shadow-sm flex items-center gap-5"
+          class="bg-white rounded-3xl border-b-4 border-lime-400 p-8 shadow-sm flex items-center gap-6"
         >
-          <div class="flex gap-5">
+          <div class="flex gap-6">
             <img class="h-20" src="images/people.png" alt="" />
 
             <div>
@@ -85,9 +85,9 @@
           </div>
         </div>
         <div
-          class="bg-white rounded-3xl border-b-4 border-lime-400 p-8 shadow-sm flex items-center gap-5"
+          class="bg-white rounded-3xl border-b-4 border-lime-400 p-8 shadow-sm flex items-center gap-6"
         >
-          <div class="flex gap-5">
+          <div class="flex gap-6">
             <img class="h-20" src="images/ticket-cupon.png" alt="" />
 
             <div>
@@ -99,9 +99,9 @@
 
         <!-- Card -->
         <div
-          class="bg-white rounded-3xl border-b-4 border-lime-400 p-8 shadow-sm flex items-center gap-5"
+          class="bg-white rounded-3xl border-b-4 border-lime-400 p-8 shadow-sm flex items-center gap-6"
         >
-          <div class="flex gap-5">
+          <div class="flex gap-6">
             <img class="h-20" src="images/stoppage.png" alt="" />
 
             <div>
@@ -169,14 +169,19 @@
           </div>
 
           <!-- Divider -->
-          <div class="relative w-[2px] flex bg-white/70 border-dashed border-r-2 border-white">
+          <div
+            class="relative w-[2px] flex bg-white/70 border-dashed border-r-2 border-white"
+          >
             <!-- top circle -->
-            <div  class="absolute -top-5 -left-4 w-8 h-8 bg-white rounded-full"></div>
+            <div
+              class="absolute -top-5 -left-4 w-8 h-8 bg-white rounded-full"
+            ></div>
 
             <!-- bottom circle -->
-            <div class="absolute -bottom-5 -left-4 w-8 h-8 bg-white rounded-full"></div>
+            <div
+              class="absolute -bottom-5 -left-4 w-8 h-8 bg-white rounded-full"
+            ></div>
             <img src="images/ticket-cupon.png" alt="" />
-           
           </div>
 
           <!-- Right -->
@@ -200,257 +205,301 @@
       </div>
     </section>
 
+    <section class="max-w-6xl mx-auto my-10 bg-white rounded-3xl p-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- LEFT SIDE -->
+        <div class="border-r border-dashed pr-8">
+          <!-- Heading -->
+          <div
+            class="flex justify-between items-center border-b border-dashed pb-4"
+          >
+            <h2 class="text-3xl font-bold">Select Your Seat</h2>
 
-    
-     <section class="max-w-6xl mx-auto my-10 bg-white rounded-3xl p-8">
-    
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div class="flex items-center gap-2 text-green-500 font-semibold">
+              <span>🚍</span>
+              <span>Selected</span>
+            </div>
+          </div>
 
-      <!-- LEFT SIDE -->
-      <div class="border-r border-dashed pr-8">
+          <!-- Available -->
+          <div class="flex justify-between mt-5 text-gray-500">
+            <div class="flex items-center gap-2">
+              <span>🪑</span>
+              <span>Available</span>
+            </div>
 
-        <!-- Heading -->
-        <div class="flex justify-between items-center border-b border-dashed pb-4">
-          <h2 class="text-3xl font-bold">Select Your Seat</h2>
+            <div class="flex items-center gap-2 text-green-500 font-semibold">
+              <span>🚌</span>
+              <span>Selected</span>
+            </div>
+          </div>
 
-          <div class="flex items-center gap-2 text-green-500 font-semibold">
-            <span>🚍</span>
-            <span>Selected</span>
+          <!-- Driver -->
+          <div class="flex justify-end mt-5">
+            <div
+              class="w-13 h-11 bg-gray-200 rounded-xl flex items-center justify-center text-2xl"
+            >
+              <img src="images/steewering-wheel.png" alt="">
+            </div>
+          </div>
+
+          <!-- Seats -->
+          <div class="mt-8 space-y-4">
+            <!-- Row -->
+            <div class="flex items-center justify-between">
+              <!-- Left Side -->
+              <div class="flex items-center gap-6">
+                <span class="text-gray-500 w-10">A</span>
+
+                <button class="btn w-18">A1</button>
+                <button class="btn w-18">A2</button>
+              </div>
+
+              <!-- Right Side -->
+              <div class="flex items-center gap-6">
+                <button class="btn w-18">A3</button>
+                <button class="btn w-18">A4</button>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-6 justify-between">
+              <div class="flex items-center gap-6">
+                <span class="text-gray-500 gap-2 w-10">B</span>
+
+                <button class="btn w-18">B1</button>
+                <button class="btn w-18">B2</button>
+              </div>
+
+              <div class="flex items-center gap-6">
+                <button class="btn w-18">B3</button>
+                <button class="btn w-18">B4</button>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-6">
+                <span class="text-gray-500 w-10">C</span>
+
+                <button class="btn w-18">C1</button>
+                <button class="btn w-18">C2</button>
+              </div>
+
+              <div class="flex items-center gap-6">
+                <button class="btn w-18">C3</button>
+                <button class="btn w-18">C4</button>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-6">
+                <span class="text-gray-500 w-10">D</span>
+
+                <button class="btn w-18">D1</button>
+                <button class="btn w-18">D2</button>
+              </div>
+
+              <div class="flex items-center gap-6">
+                <button class="btn w-18">D3</button>
+                <button class="btn w-18">D4</button>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-6">
+                <span class="text-gray-500 w-10">E</span>
+
+                <button class="btn w-18">E1</button>
+                <button class="btn w-18">E2</button>
+              </div>
+
+              <div class="flex items-center gap-6">
+                <button class="btn w-18">E3</button>
+                <button class="btn w-18">E4</button>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-6">
+                <span class="text-gray-500 w-10">F</span>
+
+                <button class="btn w-18">F1</button>
+                <button class="btn w-18">F2</button>
+              </div>
+
+              <div class="flex items-center gap-6">
+                <button class="btn w-18">F3</button>
+                <button class="btn w-18">F4</button>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-6">
+                <span class="text-gray-500 w-10">G</span>
+
+                <button class="btn w-18">G1</button>
+                <button class="btn w-18">G2</button>
+              </div>
+
+              <div class="flex items-center gap-6">
+                <button class="btn w-18">G3</button>
+                <button class="btn w-18">G4</button>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-6">
+                <span class="text-gray-500 w-10">H</span>
+
+                <button class="btn w-18">H1</button>
+                <button class="btn w-18">H2</button>
+              </div>
+
+              <div class="flex items-center gap-6">
+                <button class="btn w-18">H3</button>
+                <button class="btn w-18">H4</button>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-6">
+                <span class="text-gray-500 w-10">I</span>
+
+                <button class="btn w-18">I1</button>
+                <button class="btn w-18">I2</button>
+              </div>
+
+              <div class="flex items-center gap-6">
+                <button class="btn w-18">I3</button>
+                <button class="btn w-18">I4</button>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-6">
+                <span class="text-gray-500 w-10">J</span>
+
+                <button class="btn w-18">J1</button>
+                <button class="btn w-18">J2</button>
+              </div>
+
+              <div class="flex items-center gap-6">
+                <button class="btn w-18">J3</button>
+                <button class="btn w-18">J4</button>
+              </div>
+            </div>
           </div>
         </div>
 
-        <!-- Available -->
-        <div class="flex justify-between mt-5 text-gray-500">
-          <div class="flex items-center gap-2">
-            <span>🪑</span>
-            <span>Available</span>
-          </div>
-
-          <div class="flex items-center gap-2 text-green-500 font-semibold">
-            <span>🚌</span>
-            <span>Selected</span>
-          </div>
-        </div>
-
-        <!-- Driver -->
-        <div class="flex justify-end mt-5">
-          <div class="w-16 h-14 bg-gray-200 rounded-xl flex items-center justify-center text-2xl">
-            ⚙️
-          </div>
-        </div>
-
-        <!-- Seats -->
-        <div class="mt-8 space-y-4">
-
-          <!-- Row -->
-          <div class="grid grid-cols-5 gap-4 items-center">
-            <span class="text-gray-500">A</span>
-
-            <button class="seat">A1</button>
-            <button class="seat">A2</button>
-            <button class="seat">A3</button>
-            <button class="seat">A4</button>
-          </div>
-
-          <div class="grid grid-cols-5 gap-4 items-center">
-            <span class="text-gray-500">B</span>
-
-            <button class="seat">B1</button>
-            <button class="seat">B2</button>
-            <button class="seat">B3</button>
-            <button class="seat">B4</button>
-          </div>
-
-          <div class="grid grid-cols-5 gap-4 items-center">
-            <span class="text-gray-500">C</span>
-
-            <button class="seat">C1</button>
-            <button class="seat">C2</button>
-            <button class="seat">C3</button>
-            <button class="seat">C4</button>
-          </div>
-
-          <div class="grid grid-cols-5 gap-4 items-center">
-            <span class="text-gray-500">D</span>
-
-            <button class="seat">D1</button>
-            <button class="seat">D2</button>
-            <button class="seat-selected">D3</button>
-            <button class="seat">D4</button>
-          </div>
-
-          <div class="grid grid-cols-5 gap-4 items-center">
-            <span class="text-gray-500">E</span>
-
-            <button class="seat-selected">E1</button>
-            <button class="seat">E2</button>
-            <button class="seat">E3</button>
-            <button class="seat">E4</button>
-          </div>
-
-          <div class="grid grid-cols-5 gap-4 items-center">
-            <span class="text-gray-500">F</span>
-
-            <button class="seat">F1</button>
-            <button class="seat">F2</button>
-            <button class="seat">F3</button>
-            <button class="seat">F4</button>
-          </div>
-
-          <div class="grid grid-cols-5 gap-4 items-center">
-            <span class="text-gray-500">G</span>
-
-            <button class="seat">G1</button>
-            <button class="seat-selected">G2</button>
-            <button class="seat">G3</button>
-            <button class="seat">G4</button>
-          </div>
-
-          <div class="grid grid-cols-5 gap-4 items-center">
-            <span class="text-gray-500">H</span>
-
-            <button class="seat">H1</button>
-            <button class="seat">H2</button>
-            <button class="seat">H3</button>
-            <button class="seat">H4</button>
-          </div>
-
-          <div class="grid grid-cols-5 gap-4 items-center">
-            <span class="text-gray-500">I</span>
-
-            <button class="seat">I1</button>
-            <button class="seat">I2</button>
-            <button class="seat">I3</button>
-            <button class="seat">I4</button>
-          </div>
-
-          <div class="grid grid-cols-5 gap-4 items-center">
-            <span class="text-gray-500">J</span>
-
-            <button class="seat">J1</button>
-            <button class="seat">J2</button>
-            <button class="seat">J3</button>
-            <button class="seat">J4</button>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- RIGHT SIDE -->
-      <div>
-
-        <h2 class="text-3xl font-bold border-b border-dashed pb-4">
-          Select Your Seat
-        </h2>
+        <!-- RIGHT SIDE -->
+        <div>
+          <h2 class="text-3xl font-bold border-b border-dashed pb-4">
+            Select Your Seat
+          </h2>
 
           <!-- Price count and total price count box -->
-        <div class="bg-[#F7F8F8] rounded-2xl p-5 mt-6">
+          <div class="bg-[#F7F8F8] rounded-2xl p-5 mt-6">
+            <div
+              class="flex justify-between font-semibold border-b border-dashed pb-3"
+            >
+              <div class="flex gap-1 items-center">
+                <span>Seat</span>
+                <span class="bg-green-500 text-white text-xs px-2 rounded-full"
+                  >2</span
+                >
+              </div>
 
-          <div class="flex justify-between font-semibold border-b border-dashed pb-3">
-            <div class="flex gap-1 items-center">
-              <span>Seat</span>
-              <span class="bg-green-500 text-white text-xs px-2 rounded-full">2</span>
+              <span>Class</span>
+              <span>Price</span>
             </div>
 
-            <span>Class</span>
-            <span>Price</span>
-          </div>
+            <div class="space-y-3 mt-4 text-gray-500">
+              <div class="flex justify-between">
+                <span>C2</span>
+                <span>Economy</span>
+                <span>550</span>
+              </div>
 
-          <div class="space-y-3 mt-4 text-gray-500">
-            <div class="flex justify-between">
-              <span>C2</span>
-              <span>Economy</span>
-              <span>550</span>
+              <div class="flex justify-between">
+                <span>C2</span>
+                <span>Economy</span>
+                <span>550</span>
+              </div>
             </div>
 
-            <div class="flex justify-between">
-              <span>C2</span>
-              <span>Economy</span>
-              <span>550</span>
+            <div class="flex justify-between font-semibold mt-5">
+              <span>Total Price</span>
+              <span>BDT 1100</span>
+            </div>
+            <div class="">Total discount: <span></span></div>
+
+            <!-- Coupon -->
+            <div class="flex mt-5">
+              <input
+                type="text"
+                placeholder="Have any coupon?"
+                class="w-full px-4 py-3 rounded-l-xl outline-none border"
+              />
+
+              <button
+                class="bg-green-500 text-white px-5 rounded-r-xl font-semibold"
+              >
+                Apply
+              </button>
+            </div>
+
+            <div class="flex justify-between font-semibold mt-5">
+              <span>Grand Total</span>
+              <span>BDT 1100</span>
             </div>
           </div>
 
+          <!-- Form -->
+          <form class="mt-8 space-y-5">
+            <div>
+              <label class="font-semibold block mb-2"> Passenger Name* </label>
 
-           
-          <div class="flex justify-between font-semibold mt-5">
-            <span>Total Price</span>
-            <span>BDT 1100</span>
-          </div>
+              <input
+                type="text"
+                placeholder="Enter your name"
+                class="w-full border rounded-xl px-4 py-4 outline-none focus:border-green-500"
+              />
+            </div>
 
-          <!-- Coupon -->
-          <div class="flex mt-5">
-            <input
-              type="text"
-              placeholder="Have any coupon?"
-              class="w-full px-4 py-3 rounded-l-xl outline-none border"
-            />
+            <div>
+              <label class="font-semibold block mb-2"> Phone Number* </label>
 
-            <button class="bg-green-500 text-white px-5 rounded-r-xl font-semibold">
-              Apply
+              <input
+                type="phone"
+                placeholder="Enter your phone number"
+                class="w-full border rounded-xl px-4 py-4 outline-none focus:border-green-500"
+              />
+            </div>
+
+            <div>
+              <label class="font-semibold block mb-2"> Email ID </label>
+
+              <input
+                type="email"
+                placeholder="Enter your email id"
+                class="w-full border rounded-xl px-4 py-4 outline-none focus:border-green-500"
+              />
+            </div>
+
+            <button
+              class="w-full bg-green-500 hover:bg-green-600 transition text-white py-4 rounded-xl font-bold text-lg"
+            >
+              Next
             </button>
-          </div>
 
-          <div class="flex justify-between font-semibold mt-5">
-            <span>Grand Total</span>
-            <span>BDT 1100</span>
-          </div>
+            <div
+              class="flex justify-center gap-6 text-sm text-gray-500 underline"
+            >
+              <a href="#">Terms and Conditions</a>
+              <a href="#">Cancellation Policy</a>
+            </div>
+          </form>
         </div>
-
-        <!-- Form -->
-        <form class="mt-8 space-y-5">
-
-          <div>
-            <label class="font-semibold block mb-2">
-              Passenger Name*
-            </label>
-
-            <input
-              type="text"
-              placeholder="Enter your name"
-              class="w-full border rounded-xl px-4 py-4 outline-none focus:border-green-500"
-            />
-          </div>
-
-          <div>
-            <label class="font-semibold block mb-2">
-              Phone Number*
-            </label>
-
-            <input
-              type="phone"
-              placeholder="Enter your phone number"
-              class="w-full border rounded-xl px-4 py-4 outline-none focus:border-green-500"
-            />
-          </div>
-
-          <div>
-            <label class="font-semibold block mb-2">
-              Email ID
-            </label>
-
-            <input
-              type="email"
-              placeholder="Enter your email id"
-              class="w-full border rounded-xl px-4 py-4 outline-none focus:border-green-500"
-            />
-          </div>
-
-          <button
-            class="w-full bg-green-500 hover:bg-green-600 transition text-white py-4 rounded-xl font-bold text-lg"
-          >
-            Next
-          </button>
-
-          <div class="flex justify-center gap-6 text-sm text-gray-500 underline">
-            <a href="#">Terms and Conditions</a>
-            <a href="#">Cancellation Policy</a>
-          </div>
-
-        </form>
-
       </div>
-
-    </div>
-  </section>
+    </section>
   </body>
 </html>
